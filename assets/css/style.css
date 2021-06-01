@@ -1,0 +1,36 @@
+body{
+	background-image: url('../images/bg2.jpg');
+	/*background-attachment: fixed;*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: rgb(0,0,0,0.7);
+	height: 643px
+}
+.logoText{
+	font-weight: bolder;
+	font-size: 70px;
+	font-family: corbel;
+	color: white;
+	font-variant: normal;
+}
+.box1,.box2{
+	height: 150px;
+	width: 350px;
+	background-color: rgb(0,0,0,0.7);
+	border-radius: 30px;
+	margin: 0 auto;
+	color: white;
+}
+.box1 h1,.box2 h1{
+	
+	text-align: center;
+	padding-top: 45px;
+}
+.box1:hover{
+	background-color: rgb(255,255,255);
+	color: black;
+}
+.box2:hover{
+	background-color: rgb(255,255,255);
+	color: black;
+}
