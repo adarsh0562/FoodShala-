@@ -1,0 +1,250 @@
+body {
+	color: #fff;
+	background-image:url('../../assets/images/bg1.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Roboto', sans-serif;
+}
+.form-control {
+	font-size: 15px;
+}
+.form-control, .form-control:focus, .input-group-text {
+	border-color: #e1e1e1;
+}
+.form-control, .btn {        
+	border-radius: 3px;
+}
+.signup-form {
+	width: 400px;
+	margin: 0 auto;
+	padding: 30px 0;		
+}
+.signup-form form {
+	color: #999;
+	border-radius: 3px;
+	margin-bottom: 15px;
+	background: #fff;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	padding: 30px;
+}
+.signup-form h2 {
+	color: #333;
+	font-weight: bold;
+	margin-top: 0;
+}
+.signup-form hr {
+	margin: 0 -30px 20px;
+}
+.signup-form .form-group {
+	margin-bottom: 20px;
+}
+.signup-form label {
+	font-weight: normal;
+	font-size: 15px;
+}
+.signup-form .form-control {
+	min-height: 38px;
+	box-shadow: none !important;
+}	
+.signup-form .input-group-addon {
+	max-width: 42px;
+	text-align: center;
+}	
+.signup-form .btn, .signup-form .btn:active {        
+	font-size: 16px;
+	font-weight: bold;
+	background: #19aa8d !important;
+	border: none;
+	min-width: 140px;
+}
+.signup-form .btn:hover, .signup-form .btn:focus {
+	background: #179b81 !important;
+}
+.signup-form a {
+	color: #fff;	
+	text-decoration: underline;
+}
+.signup-form a:hover {
+	text-decoration: none;
+}
+.signup-form form a {
+	color: #19aa8d;
+	text-decoration: none;
+}	
+.signup-form form a:hover {
+	text-decoration: underline;
+}
+.signup-form .fa {
+	font-size: 21px;
+}
+.signup-form .fa-paper-plane {
+	font-size: 18px;
+}
+.signup-form .fa-check {
+	color: #fff;
+	left: 17px;
+	top: 18px;
+	font-size: 7px;
+	position: absolute;
+}
+.foodType{
+
+}
+.coverPhoto{
+	
+	min-height: 300px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+.restaurantLogo
+{
+	width: 200px;
+	height: 200px;
+	margin-top: 50px;
+	
+	
+
+
+}
+.restaurantLogo img
+{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+.restaurant_desc h1
+{
+	margin-top: 50px;
+}
+.vegIcon,.nonVegIcon{
+    height: 30px;
+    width: 30px;
+    
+}
+.navBtns .btn
+{
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 250px;
+	height: 150px;
+	border-radius: 20px;
+	font-size: 30px;
+	font-weight: bolder;
+}
+.sideMenu{
+	margin-left: -15px;
+}
+
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  /*position: fixed;*/
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+.box{
+	width: 300px;
+	height: 150px;
+	background-color: white;
+	border-radius: 30px;
+	margin-top: 50px; 
+
+}
+.box img
+{
+	position: relative;
+	left: -100px;
+	top:40px;
+}
+.box h1
+{
+	color: darkblue;
+	font-weight: bolder;
+	font-size: 60px;
+	position: relative;
+	top: -50px;
+	left: -20px;
+}
+.box p
+{
+	color: darkblue;
+	font-weight: bolder;
+	font-size: 20px;
+	position: relative;
+	top: -50px;
+	left: 30px;
+}
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+/* MENU PAGE*/
+.menuTable{
+	background-color: white;
+}
+.menuTable th,td{
+	width: 200px;
+	text-align: center;
+}
+.viewMenu h1
+{
+	color: white;
+	font-weight: bolder;
+	font-size: 60px;
+}
+.foodImage{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+/*MENU PAGE END*/
+.inrSign{
+    color: black;
+    position: relative;
+    top: -95px;
+    left: -65px;
+    font-size: 20px;
+}
